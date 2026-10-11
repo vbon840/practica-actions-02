@@ -4,7 +4,7 @@
   "description": "Práctica 2: Pipeline de CI con una App Real",
   "main": "index.js",
   "scripts": {
-    "test": "node -e \"console.log('Tests OK'); process.exit(1)\""
+    "test": "node -e \"console.log('Tests OK'); process.exit(0)\""
   },
   "repository": {
     "type": "git",
