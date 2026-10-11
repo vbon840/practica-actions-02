@@ -17,3 +17,7 @@ jobs:
           node-version: "20"
       - run: npm install
       - run: npm test
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: node --version
